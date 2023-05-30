@@ -1,0 +1,1313 @@
+/* Media Queries */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+	/* Hero */
+	body {
+		height: auto;
+	}
+
+	.feature {
+		height: 70vh;
+	}
+
+	.logo {
+		width: 5vw;
+	}
+
+	.bg-sky {
+	    position: absolute;
+	    width: 2800px;
+	    top: calc(50% - 390px);
+	    left: calc(50% + 10px);
+	    transform: translate(-50%, -50%);
+	    z-index: 1;
+	}
+
+	.text {
+	    position: absolute;
+	    z-index: 3;
+	    top: calc(50% - 130px);
+	    left: 40%;
+	    top: 22vh;
+	    transform: translate(-50%, -50%) !important;
+	    text-align: center;
+	    text-transform: uppercase;
+	    color: #fff;
+	}
+
+	.text-two {
+		color: #404f6c !important;
+		font-size: 6.6rem !important;
+		margin-top: -10px;
+	}
+
+	.text h1 {
+		font-family: 'Bebas Neue', sans-serif;
+		font-weight: 400;
+		font-size: 6rem;
+		line-height: 0.88;
+		color: #4d4d4d;
+	}
+
+	middle-mountain {
+	    position: absolute;
+	    z-index: 2;
+	    top: 540px;
+	    left: 448px;
+	    width: 1024px;
+	}
+
+	.shadow-mountain {
+	    position: absolute;
+	    z-index: 4;
+	    top: 46vh;
+	    left: 30vw;
+	    width: 70vw;
+	}
+
+	.mountain-man {
+	    position: absolute;
+	    z-index: 5;
+	    top: 46vh;
+	    left: 76vw;
+	    width: 84vw;
+	}
+
+	.stars {
+	    opacity: 0.2;
+	    position: absolute;
+	    z-index: 6;
+	    top: 0px;
+	    left: 0px;
+	    width: 2200px;
+	}
+
+	.shadow {
+		opacity: 0.8;
+		position: absolute;
+		z-index: 7;
+		bottom: 0vh;
+	    left: 0px;
+	    width: 100%;
+	}
+
+	/* History section */
+	.secondary-navbar {
+		padding: 0px;
+	}
+
+	.secondary-header-text {
+	    font-size: 2rem;
+	}
+
+	.secondary-header-text-two {
+	    font-size: 2.2rem;
+	}
+
+	#myCarousel, .carousel {
+	    height: auto;
+		aspect-ratio: 16/9;
+	}
+
+	#carousel-indicators-container {
+		position: relative !important;
+		min-height: 160px;
+	}
+
+	.carousel-indicators {
+		margin-right: 8%;
+	    margin-left: 8%;
+	}
+
+	.carousel-indicators [data-bs-target] {
+	    width: 16vw;
+	}
+
+	#item1 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item2 {
+		margin-top: 6px;
+		margin-right: -10px;
+	}
+
+	#item3 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item4 {
+		margin-top: 6px;
+	}
+
+	.carousel-bg {
+	    opacity: 0.8;
+	    background-color: #404f6c;
+	    width: 100%;
+	    height: auto;
+	    position: absolute;
+	    bottom: 0px;
+	}
+
+	.history-text-container {
+		contain: strict;
+		height: 300px;
+		z-index: 20;
+	}
+
+	.carousel-caption {
+	    top: 0px;
+	}
+
+	.carousel-caption > div > div > div > h4 {
+	    font-size: 8rem;
+	}
+
+	.carousel-caption > div > div > div > h5 {
+	    font-size: 3rem;
+	}
+
+	.carousel-caption > div > div > p {
+		font-size: 1.2rem;
+		margin-top: -10px;
+	}
+
+	/* Team section */
+	.climb {
+		padding: 1vh 0 1vh 0;
+	}
+
+	.climb-navbar-container {
+	    margin: auto;
+	    width: 100%;
+	    padding: 10px 0 10px 0;
+	    margin-left: 4vw;
+	    font-size: 1.2rem;
+	}
+
+	.team-header-text > p {
+	    width: 12rem;
+	    font-size: rem !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.numbers {
+	    font-size: 8rem;
+	    margin-top: 0px;
+		display: flex;
+		justify-content: right;
+		align-items: center;
+
+	}
+
+	.number-history > div > h5 {
+	    margin-top: 26px;
+	    margin-left: -44px;
+	}
+
+	.number-text {
+	    font-size: 3rem;
+		margin-left: -16px;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		height: 80%;
+	}
+
+	.team-header-text {
+	    margin-top: 0vh;
+	    margin-left: 2vw;
+	    contain: content;
+	}
+
+	#mountain1, #mountain2 {
+		font-size: 2.6rem !important;
+	}
+
+	.schedule {
+	    width: 50vw;
+	}
+
+	.schedule > h2 {
+	    font-size: 2.6rem;
+	}
+
+	.schedule-text > div > p {
+	    color: black;
+	    font-weight: 400;
+	    font-size: 1.2rem;
+	}
+
+	/* Footer */
+	.footer-title > h2 {
+	    font-size: 0.92rem;
+	}
+
+	.footer-title > h2:nth-child(2) {
+	    font-size: 1rem;
+	}
+
+	.copyright > span {
+		font-size: 1rem;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	/* Hero */
+	body {
+		height: auto;
+	}
+
+	.feature {
+		height: 70vh;
+	}
+
+	.logo {
+		width: 6vw;
+	}
+
+	.bg-sky {
+	    position: absolute;
+	    width: 2800px;
+	    top: calc(50% - 390px);
+	    left: calc(50% + 10px);
+	    transform: translate(-50%, -50%);
+	    z-index: 1;
+	}
+
+	.text {
+	    position: absolute;
+	    z-index: 3;
+	    top: calc(50% - 130px);
+	    left: 40%;
+	    top: 42vh;
+	    transform: translate(-50%, -50%) !important;
+	    text-align: center;
+	    text-transform: uppercase;
+	    color: #fff;
+	}
+
+	.text-two {
+		color: #404f6c !important;
+		font-size: 6.6rem !important;
+		margin-top: -10px;
+	}
+
+	.text h1 {
+		font-family: 'Bebas Neue', sans-serif;
+		font-weight: 400;
+		font-size: 6rem;
+		line-height: 0.88;
+		color: #4d4d4d;
+	}
+
+	middle-mountain {
+	    position: absolute;
+	    z-index: 2;
+	    top: 540px;
+	    left: 448px;
+	    width: 1024px;
+	}
+
+	.shadow-mountain {
+	    position: absolute;
+	    z-index: 4;
+	    top: 55vh;
+	    left: 30vw;
+	    width: 70vw;
+	}
+
+	.mountain-man {
+	    position: absolute;
+	    z-index: 5;
+	    top: 55vh;
+	    left: 76vw;
+	    width: 84vw;
+	}
+
+	.stars {
+	    opacity: 0.2;
+	    position: absolute;
+	    z-index: 6;
+	    top: 0px;
+	    left: 0px;
+	    width: 2200px;
+	}
+
+	.shadow {
+		opacity: 0.8;
+		position: absolute;
+		z-index: 7;
+		bottom: 0vh;
+	    left: 0px;
+	    width: 100%;
+	}
+
+	/* History section */
+	.secondary-navbar {
+		padding: 0px;
+	}
+
+	.secondary-header-text {
+	    font-size: 1.4rem;
+	}
+
+	.secondary-header-text-two {
+	    font-size: 1.54rem;
+	}
+
+	#myCarousel, .carousel {
+	    height: auto;
+		aspect-ratio: 16/9;
+	}
+
+	#carousel-indicators-container {
+		position: relative !important;
+		min-height: 120px;
+	}
+
+	.carousel-indicators {
+		margin-right: 8%;
+	    margin-left: 8%;
+	}
+
+	.carousel-indicators [data-bs-target] {
+	    width: 16vw;
+	}
+
+	#item1 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item2 {
+		margin-top: 6px;
+		margin-right: -10px;
+	}
+
+	#item3 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item4 {
+		margin-top: 6px;
+	}
+
+	.carousel-bg {
+	    opacity: 0.8;
+	    background-color: #404f6c;
+	    width: 100%;
+	    height: auto;
+	    position: absolute;
+	    bottom: 0px;
+	}
+
+	.history-text-container {
+		contain: strict;
+		height: 300px;
+		z-index: 20;
+	}
+
+	.carousel-caption {
+	    top: 0px;
+	}
+
+	.carousel-caption > div > div > div > h4 {
+	    font-size: 5rem;
+	}
+
+	.carousel-caption > div > div > div > h5 {
+	    font-size: 2rem;
+	}
+
+	.carousel-caption > div > div > p {
+		font-size: 0.7rem;
+		margin-top: -10px;
+	}
+
+	/* Team section */
+	.climb {
+		padding: 1vh 0 1vh 0;
+	}
+
+	.climb-navbar-container {
+	    margin: auto;
+	    width: 100%;
+	    padding: 10px 0 10px 0;
+	    margin-left: 4vw;
+	}
+
+	.team-header-text > p {
+	    width: 12rem;
+	    font-size: rem !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.numbers {
+	    font-size: 6rem;
+	    margin-top: 0px;
+		display: flex;
+		justify-content: right;
+		align-items: center;
+
+	}
+
+	.number-history > div > h5 {
+	    margin-top: 26px;
+	    margin-left: -44px;
+	}
+
+	.number-text {
+	    font-size: 2rem;
+		margin-left: -16px;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		height: 80%;
+	}
+
+	.team-header-text {
+	    margin-top: 0vh;
+	    margin-left: 2vw;
+	    contain: content;
+	}
+
+	#mountain1, #mountain2 {
+		font-size: 1.6rem !important;
+	}
+
+	.schedule {
+	    width: 50vw;
+	}
+
+	.schedule > h2 {
+	    font-size: 2.6rem;
+	}
+
+	.schedule-text > div > p {
+	    color: black;
+	    font-weight: 400;
+	    font-size: 1.2rem;
+	}
+
+	/* Footer */
+	.footer-title > h2 {
+	    font-size: 0.92rem;
+	}
+
+	.footer-title > h2:nth-child(2) {
+	    font-size: 1rem;
+	}
+
+	.copyright > span {
+		font-size: 0.6rem;
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+	/* Hero */
+	body {
+		height: auto;
+	}
+
+	.feature {
+		height: 70vh;
+	}
+
+	.logo {
+		width: 6vw;
+	}
+
+	.bg-sky {
+	    position: absolute;
+	    width: 2800px;
+	    top: calc(50% - 390px);
+	    left: calc(50% + 10px);
+	    transform: translate(-50%, -50%);
+	    z-index: 1;
+	}
+
+	.text {
+	    position: absolute;
+	    z-index: 3;
+	    top: calc(50% - 130px);
+	    left: 40%;
+	    top: 46vh;
+	    transform: translate(-50%, -50%) !important;
+	    text-align: center;
+	    text-transform: uppercase;
+	    color: #fff;
+	}
+
+	.text-two {
+		color: #404f6c !important;
+		font-size: 4.3rem !important;
+		margin-top: -10px;
+	}
+
+	.text h1 {
+		font-family: 'Bebas Neue', sans-serif;
+		font-weight: 400;
+		font-size: 4rem;
+		line-height: 0.88;
+		color: #4d4d4d;
+	}
+
+	middle-mountain {
+	    position: absolute;
+	    z-index: 2;
+	    top: 540px;
+	    left: 448px;
+	    width: 1024px;
+	}
+
+	.shadow-mountain {
+	    position: absolute;
+	    z-index: 4;
+	    top: 58vh;
+	    left: 30vw;
+	    width: 70vw;
+	}
+
+	.mountain-man {
+	    position: absolute;
+	    z-index: 5;
+	    top: 58vh;
+	    left: 76vw;
+	    width: 84vw;
+	}
+
+	.stars {
+	    opacity: 0.2;
+	    position: absolute;
+	    z-index: 6;
+	    top: 0px;
+	    left: 0px;
+	    width: 2200px;
+	}
+
+	.shadow {
+		opacity: 0.8;
+		position: absolute;
+		z-index: 7;
+		bottom: 0vh;
+	    left: 0px;
+	    width: 100%;
+	}
+
+	/* History section */
+	.secondary-navbar {
+		padding: 0px;
+	}
+
+	.secondary-header-text {
+	    font-size: 1.4rem;
+	}
+
+	.secondary-header-text-two {
+	    font-size: 1.54rem;
+	}
+
+	#myCarousel, .carousel {
+	    height: auto;
+		aspect-ratio: 16/9;
+	}
+
+	#carousel-indicators-container {
+		position: relative !important;
+		min-height: 80px;
+	}
+
+	.carousel-indicators {
+		margin-right: 8%;
+	    margin-left: 8%;
+	}
+
+	.carousel-indicators [data-bs-target] {
+	    width: 16vw;
+	}
+
+	#item1 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item2 {
+		margin-top: 6px;
+		margin-right: -10px;
+	}
+
+	#item3 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item4 {
+		margin-top: 6px;
+	}
+
+	.carousel-bg {
+	    opacity: 0.8;
+	    background-color: #404f6c;
+	    width: 100%;
+	    height: auto;
+	    position: absolute;
+	    bottom: 0px;
+	}
+
+	.history-text-container {
+		contain: strict;
+		height: 126px;
+		z-index: 20;
+	}
+
+	.carousel-caption {
+	    top: 0px;
+	}
+
+	.carousel-caption > div > div > div > h4 {
+	    font-size: 5rem;
+	}
+
+	.carousel-caption > div > div > div > h5 {
+	    font-size: 2rem;
+	}
+
+	.carousel-caption > div > div > p {
+		font-size: 0.7rem;
+		margin-top: -10px;
+	}
+
+	/* Team section */
+	.climb {
+		padding: 1vh 0 1vh 0;
+	}
+
+	.climb-navbar-container {
+	    margin: auto;
+	    width: 100%;
+	    padding: 10px 0 10px 0;
+	    margin-left: 4vw;
+	}
+
+	.team-header-text > p {
+	    width: 12rem;
+	    font-size: 0.5rem !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.numbers {
+	    font-size: 3rem;
+	    margin-top: 0px;
+		display: flex;
+		justify-content: right;
+		align-items: center;
+
+	}
+
+	.number-history > div > h5 {
+	    margin-top: 26px;
+	    margin-left: 2px;
+	}
+
+	.number-text {
+	    font-size: 1rem;
+		margin-left: -9px;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		height: 80%;
+	}
+
+	.team-header-text {
+	    margin-top: 0vh;
+	    margin-left: 2vw;
+	    contain: content;
+	}
+
+	#mountain1, #mountain2 {
+		font-size: 1.6rem !important;
+	}
+
+	.schedule {
+	    width: 50vw;
+	}
+
+	.schedule > h2 {
+	    font-size: 1.6rem;
+	}
+
+	.schedule-text > div > p {
+	    color: black;
+	    font-weight: 400;
+	    font-size: 0.8rem;
+	}
+
+	/* Footer */
+	.footer-title > h2 {
+	    font-size: 0.92rem;
+	}
+
+	.footer-title > h2:nth-child(2) {
+	    font-size: 1rem;
+	}
+
+	.copyright > span {
+		font-size: 0.6rem;
+	}
+}
+
+@media all and (min-width: 281px) and (max-width: 480px) {
+	/* Hero */
+	body {
+		height: auto;
+	}
+
+	.feature {
+		height: 60vh;
+	}
+
+	.logo {
+		width: 8vw;
+	}
+
+	.bg-sky {
+	    position: absolute;
+	    width: 2800px;
+	    top: calc(50% - 390px);
+	    left: calc(50% + 10px);
+	    transform: translate(-50%, -50%);
+	    z-index: 1;
+	}
+
+	.text {
+	    position: absolute;
+	    z-index: 3;
+	    top: calc(50% - 130px);
+	    left: 40%;
+	    top: 42vh;
+	    transform: translate(-50%, -50%) !important;
+	    text-align: center;
+	    text-transform: uppercase;
+	    color: #fff;
+	}
+
+	.text-two {
+		color: #404f6c !important;
+		font-size: 3.3rem !important;
+		margin-top: -10px;
+	}
+
+	.text h1 {
+		font-family: 'Bebas Neue', sans-serif;
+		font-weight: 400;
+		font-size: 3rem;
+		line-height: 0.88;
+		color: #4d4d4d;
+	}
+
+	middle-mountain {
+	    position: absolute;
+	    z-index: 2;
+	    top: 540px;
+	    left: 448px;
+	    width: 1024px;
+	}
+
+	.shadow-mountain {
+	    position: absolute;
+	    z-index: 4;
+	    top: 50vh;
+	    left: 30vw;
+	    width: 70vw;
+	}
+
+	.mountain-man {
+	    position: absolute;
+	    z-index: 5;
+	    top: 50vh;
+	    left: 76vw;
+	    width: 84vw;
+	}
+
+	.stars {
+	    opacity: 0.2;
+	    position: absolute;
+	    z-index: 6;
+	    top: 0px;
+	    left: 0px;
+	    width: 2200px;
+	}
+
+	.shadow {
+		opacity: 0.8;
+		position: absolute;
+		z-index: 7;
+		bottom: 0vh;
+	    left: 0px;
+	    width: 100%;
+	}
+
+	/* History section */
+	.secondary-navbar {
+		padding: 0px;
+	}
+
+	.secondary-header-text {
+	    font-size: 1.4rem;
+	}
+
+	.secondary-header-text-two {
+	    font-size: 1.54rem;
+	}
+
+	#myCarousel, .carousel {
+	    height: auto;
+		aspect-ratio: 16/9;
+	}
+
+	#carousel-indicators-container {
+		position: relative !important;
+		min-height: 50px;
+	}
+
+	.carousel-indicators {
+		margin-right: 8%;
+	    margin-left: 8%;
+	}
+
+	.carousel-indicators [data-bs-target] {
+	    width: 16vw;
+	}
+
+	#item1 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item2 {
+		margin-top: 6px;
+		margin-right: -10px;
+	}
+
+	#item3 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item4 {
+		margin-top: 6px;
+	}
+
+	.carousel-bg {
+	    opacity: 0.8;
+	    background-color: #404f6c;
+	    width: 100%;
+	    height: auto;
+	    position: absolute;
+	    bottom: 0px;
+	}
+
+	.history-text-container {
+		contain: strict;
+		height: 126px;
+		z-index: 20;
+	}
+
+	.carousel-caption {
+	    top: 0px;
+	}
+
+	.carousel-caption > div > div > div > h4 {
+	    font-size: 3rem;
+	}
+
+	.carousel-caption > div > div > div > h5 {
+	    font-size: 0.8rem;
+	}
+
+	.carousel-caption > div > div > p {
+		font-size: 0.5rem;
+		margin-top: -20px;
+	}
+
+	/* Team section */
+	.climb {
+		padding: 1vh 0 1vh 0;
+	}
+
+	.climb-navbar-container {
+	    margin: auto;
+	    width: 100%;
+	    padding: 10px 0 10px 0;
+	    margin-left: 4vw;
+	}
+
+	.team-header-text > p {
+	    width: 12rem;
+	    font-size: 0.5rem !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.numbers {
+	    font-size: 3rem;
+	    margin-top: 0px;
+		display: flex;
+		justify-content: right;
+		align-items: center;
+
+	}
+
+	.number-history > div > h5 {
+	    margin-top: 20px;
+	    margin-left: -19px;
+	}
+
+	.number-text {
+	    font-size: 1rem;
+		margin-left: -9px;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		height: 80%;
+	}
+
+	.team-header-text {
+	    margin-top: 0vh;
+	    margin-left: 2vw;
+	    contain: content;
+	}
+
+	#mountain1, #mountain2 {
+		font-size: 1.6rem !important;
+	}
+
+	.schedule {
+	    width: 77vw;
+	}
+
+	.schedule > h2 {
+	    font-size: 1.6rem;
+	}
+
+	.schedule-text > div > p {
+	    color: black;
+	    font-weight: 400;
+	    font-size: 0.8rem;
+	}
+
+	/* Footer */
+	.footer-title > h2 {
+	    font-size: 0.92rem;
+	}
+
+	.footer-title > h2:nth-child(2) {
+	    font-size: 1rem;
+	}
+
+	.copyright > span {
+		font-size: 0.6rem;
+	}
+}
+
+@media all and (max-width: 280px) {
+	/* Hero */
+	body {
+		height: auto;
+	}
+
+	.feature {
+		height: 60vh;
+	}
+
+	.logo {
+		width: 8vw;
+	}
+
+	.bg-sky {
+	    position: absolute;
+	    width: 2800px;
+	    top: calc(50% - 390px);
+	    left: calc(50% + 10px);
+	    transform: translate(-50%, -50%);
+	    z-index: 1;
+	}
+
+	.text {
+	    position: absolute;
+	    z-index: 3;
+	    top: calc(50% - 130px);
+	    left: 40%;
+	    top: 42vh;
+	    transform: translate(-50%, -50%) !important;
+	    text-align: center;
+	    text-transform: uppercase;
+	    color: #fff;
+	}
+
+	.text-two {
+		color: #404f6c !important;
+		font-size: 3.3rem !important;
+		margin-top: -10px;
+	}
+
+	.text h1 {
+		font-family: 'Bebas Neue', sans-serif;
+		font-weight: 400;
+		font-size: 3rem;
+		line-height: 0.88;
+		color: #4d4d4d;
+	}
+
+	middle-mountain {
+	    position: absolute;
+	    z-index: 2;
+	    top: 540px;
+	    left: 448px;
+	    width: 1024px;
+	}
+
+	.shadow-mountain {
+	    position: absolute;
+	    z-index: 4;
+	    top: 50vh;
+	    left: 30vw;
+	    width: 70vw;
+	}
+
+	.mountain-man {
+	    position: absolute;
+	    z-index: 5;
+	    top: 50vh;
+	    left: 76vw;
+	    width: 84vw;
+	}
+
+	.stars {
+	    opacity: 0.2;
+	    position: absolute;
+	    z-index: 6;
+	    top: 0px;
+	    left: 0px;
+	    width: 2200px;
+	}
+
+	.shadow {
+		opacity: 0.8;
+		position: absolute;
+		z-index: 7;
+		bottom: 0vh;
+	    left: 0px;
+	    width: 100%;
+	}
+
+	/* History section */
+	.secondary-navbar {
+		padding: 0px;
+	}
+
+	.secondary-header-text {
+	    font-size: 1.4rem;
+	}
+
+	.secondary-header-text-two {
+	    font-size: 1.54rem;
+	}
+
+	#myCarousel, .carousel {
+	    height: auto;
+		aspect-ratio: 16/9;
+	}
+
+	#carousel-indicators-container {
+		position: relative !important;
+		min-height: 40px;
+	}
+
+	.carousel-indicators {
+		margin-right: 8%;
+	    margin-left: 8%;
+	}
+
+	.carousel-indicators [data-bs-target] {
+	    width: 16vw;
+	}
+
+	#item1 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item2 {
+		margin-top: 6px;
+		margin-right: -10px;
+	}
+
+	#item3 {
+		margin-top: -5px;
+		margin-right: -10px;
+	}
+
+	#item4 {
+		margin-top: 6px;
+	}
+
+	.carousel-bg {
+	    opacity: 0.8;
+	    background-color: #404f6c;
+	    width: 100%;
+	    height: auto;
+	    position: absolute;
+	    bottom: 0px;
+	}
+
+	.history-text-container {
+		contain: strict;
+		height: 126px;
+		z-index: 20;
+	}
+
+	.carousel-caption {
+	    top: 0px;
+	}
+
+	.carousel-caption > div > div > div > h4 {
+	    font-size: 2rem;
+	}
+
+	.carousel-caption > div > div > div > h5 {
+	    font-size: 0.6rem;
+	}
+
+	.carousel-caption > div > div > p {
+		font-size: 0.5rem;
+		margin-top: -20px;
+	}
+
+	/* Team section */
+	.climb {
+		padding: 1vh 0 1vh 0;
+	}
+
+	.climb-navbar-container {
+	    margin: auto;
+	    width: 100%;
+	    padding: 10px 0 10px 0;
+	    margin-left: 4vw;
+	}
+
+	.team-header-text > p {
+	    width: 12rem;
+	    font-size: 0.5rem !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.numbers {
+	    font-size: 3rem;
+	    margin-top: 0px;
+		display: flex;
+		justify-content: right;
+		align-items: center;
+
+	}
+
+	.number-history > div > h5 {
+	    margin-top: 12px;
+	    margin-left: -18px;
+	}
+
+	.number-text {
+	    font-size: 1rem;
+		margin-left: -9px;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		height: 80%;
+	}
+
+	.team-header-text {
+	    margin-top: 0vh;
+	    margin-left: 2vw;
+	    contain: content;
+	}
+
+	#mountain1, #mountain2 {
+		font-size: 1.6rem !important;
+	}
+
+	.schedule {
+	    width: 77vw;
+	}
+
+	.schedule > h2 {
+	    font-size: 1.6rem;
+	}
+
+	.schedule-text > div > p {
+	    color: black;
+	    font-weight: 400;
+	    font-size: 0.8rem;
+	}
+
+	/* Footer */
+	.footer-title > h2 {
+	    font-size: 0.92rem;
+	}
+
+	.footer-title > h2:nth-child(2) {
+	    font-size: 1rem;
+	}
+
+	.copyright > span {
+		font-size: 0.6rem;
+	}
+}
+
+
+/* Portrait */
+@media screen and (orientation:portrait) {}
+/* Landscape */
+@media screen and (orientation:landscape) {}
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {} 
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {}
